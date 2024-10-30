@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> - Contacto</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <%- include('partials/navigation') %>
+
+    <header class="contact-header">
+        <h1>Contacto</h1>
+        <p>Me encantaría conectar contigo. Puedes encontrarme en las siguientes plataformas o enviarme un mensaje directo.</p>
+    </header>
+
+    <section class="contact-info">
+        <div class="info-item">
+            <strong>Email:</strong> <a href="mailto:narealexis@gmail.com">narealexis@gmail.com</a>
+        </div>
+        <div class="info-item">
+            <strong>Teléfono:</strong> (+593) 0962669452
+        </div>
+    </section>
+
+    <section class="social-links">
+        <h2>Redes Sociales</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <a href="https://www.linkedin.com/in/luis-narea-chuisaca-bb3b3a301" target="_blank">
+                    <img src="/img/linkedin.png" alt="LinkedIn Icon" class="social-icon"> LinkedIn
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="https://github.com/Alexnarea" target="_blank">
+                    <img src="/img/github-logo.png" alt="GitHub Icon" class="social-icon"> GitHub
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.facebook.com/alexis.narea.5/" target="_blank">
+                    <img src="/img/facebook.png" alt="Facebook Icon" class="social-icon"> Facebook
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.instagram.com/alexis_narea23/" target="_blank">
+                    <img src="/img/instagram.png" alt="Instagram Icon" class="social-icon"> Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <%- include('partials/footer') %>
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* main.css */
+
+/* Estilo general */
+/* Estilo general del cuerpo */
+body {
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Apilar elementos en columna */
+    min-height: 100vh; /* Altura mínima del body */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #333; /* Color del texto */
+}
+
+
+/* Estilo de la barra de navegación */
+nav {
+    background-color: #1f121a; /* Color de fondo de la barra */
+    overflow: hidden; /* Para manejar el contenido flotante */
+}
+
+nav ul {
+    list-style-type: none; /* Sin viñetas */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin padding */
+}
+
+nav ul li {
+    float: left; /* Para que los elementos se alineen horizontalmente */
+}
+
+nav ul li a {
+    display: block; /* Para que el área clickeable cubra todo el elemento */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 14px 16px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+}
+
+nav ul li a:hover {
+    background-color: #020202; /* Cambiar color al pasar el ratón */
+}
+
+/* Estilo de las secciones */
+header {
+    text-align: center; /* Centrar el texto */
+    padding: 50px 0; /* Espaciado superior e inferior */
+    background-color: #f2f2f2; /* Color de fondo */
+}
+
+h1 {
+    margin: 0; /* Sin márgenes */
+}
+
+section {
+    padding: 20px; /* Espaciado interno */
+    margin: 20px; /* Márgenes alrededor */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: white; /* Color de fondo */
+}

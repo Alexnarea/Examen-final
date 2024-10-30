@@ -1,0 +1,114 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos del encabezado */
+.hero {
+    background-color: #044a91; /* Color de fondo del encabezado */
+    color: black; /* Color del texto */
+    text-align: center; /* Centrar texto */
+    padding: 40px 20px; /* Espaciado */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.hero h2 {
+    font-size: 2rem; /* Tamaño del subtítulo */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.hero p.role {
+    font-size: 1.5rem; /* Tamaño de la descripción */
+}
+
+/* Estilos de la imagen de la foto de carnet */
+.foto-carnet {
+    border-radius: 50%; /* Esquinas redondeadas */
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Alto de la imagen */
+    object-fit: cover; /* Mantener la proporción */
+}
+
+/* Estilos de la sección "Sobre mí" */
+.about-me {
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Espaciado */
+    margin: 20px; /* Margen */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos de la sección "Proyectos" */
+.projects {
+    margin: 20px; /* Margen */
+    padding: 20px; /* Espaciado */
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Cuadrícula adaptable */
+    gap: 20px; /* Espacio entre elementos */
+}
+
+.project-item {
+    background-color: #e3f2fd; /* Fondo azul claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    width: 350px;
+    height: 400px;
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de los elementos */
+    transition: transform 0.3s; /* Transición suave al hover */
+}
+
+.project-item:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+}
+
+.project-image {
+    width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    height: 50%; /* Mantiene la proporción */
+    border-radius: 10px; /* Esquinas redondeadas de la imagen */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.project-item h3 {
+    margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Estilos de los enlaces */
+a {
+    color: #1976d2; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Estilos del pie de página */
+/* Estilos de pie de página */
+footer {
+    background-color: #1976d2; /* Color de fondo del pie de página */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar texto */
+    padding: 10px 0; /* Espaciado */
+    margin-top: auto; /* Empujar el footer hacia el final */
+    width: 100%; /* Ancho completo */
+}
+
+
+

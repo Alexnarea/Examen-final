@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Luis Alexis Narea Chuisaca</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <%- include('partials/navigation') %>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a mi CV</h1>
+            <h2>Luis Alexis Narea Chuisaca</h2>
+            <p class="role">DESARROLLADOR DE SOFTWARE, DISEÑADOR</p>
+            <img src='/img/foto.png' alt="Foto de carnet de Luis Alexis Narea" class="foto-carnet">
+        </div>
+    </header>
+
+    <section class="about-me">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador de software apasionado por la tecnología y la innovación, con experiencia en HTML, CSS, JavaScript, Angular, Node.js y PostgreSQL, además de diseñar con Figma. Mi enfoque es crear soluciones eficientes y escalables que no solo cumplan con los objetivos del proyecto, sino que también brinden una excelente experiencia al usuario. Disfruto enfrentar nuevos desafíos que me permitan crecer profesionalmente y contribuir al éxito de los proyectos en los que participo.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Proyectos Destacados</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="/img/troll.jpeg" alt="Descripción del Proyecto 1" class="project-image">
+                <h3>Proyecto 1</h3>
+                <p>Maquetacion en figma y seccionado en Angular.</p>
+                <a href="https://github.com/Alexnarea/troll-interfaces.git" target="_blank">Ver Repositorio en GitHub</a>
+            </div>
+            <div class="project-item">
+                <img src="/img/san.jpeg" alt="Descripción del Proyecto 2" class="project-image">
+                <h3>Proyecto 2</h3>
+                <p>Diseño de una pagina web solicitado por un colegio.</p>
+                <a href="https://github.com/Alexnarea/pag-colegio.git" target="_blank">Ver Repositorio en GitHub</a>
+            </div>
+            <div class="project-item">
+                <img src="/img/rjsend.png" alt="Descripción del Proyecto 3" class="project-image">
+                <h3>Proyecto 3</h3>
+                <p>Trabajo basico para aprender React con Jsend.</p>
+                <a href="https://github.com/Alexnarea/Jsend.git" target="_blank">Ver Repositorio en GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <%- include('partials/footer') %>
+</body>
+</html>
