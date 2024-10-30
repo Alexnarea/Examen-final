@@ -21,7 +21,7 @@ export async function Conectar() {
         console.log(error)
     }
 }
-export async function TraerPeliculas() {
+export async function TraerPerfil() {
     const cliente= new Client(config)
     try{
         await cliente.connect()
